@@ -1,0 +1,61 @@
+.navbar-custom {
+  background-color: orangered !important;
+  color: white;
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+  color: grey;
+}
+
+.btn-signup {
+  background-color: white;
+  color: gray;
+}
+#header {
+  background-color: wheat;
+  height: 100vh;
+  color: var(--light);
+  background-position: center;
+  background-size: cover;
+}
+#header h1 {
+  font-weight: 600;
+}
+.banner {
+  background-color: whitesmoke;
+  padding: 6rem;
+}
+
+.search-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-input {
+  padding-right: 3rem;
+  border-radius: 50px;
+  border: none;
+  height: 45px;
+  font-size: 1rem;
+}
+.btn-search {
+  background-color: orangered;
+  border-radius: 20px;
+}
+
+.about {
+  margin: 1rem;
+  background-color: white;
+}
+
+.about p {
+  padding: 2px;
+}
+a {
+  text-decoration: none;
+}

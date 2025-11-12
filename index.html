@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Website</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary navbar-custom sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+         
+          <i class="fa fa-bank" style="font-size:28px;color:grey background-color aliceblue"></i>
+          FOLKS BANK
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Transactions</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <!-- <a href="#" class="btn btn-signup">SIGN UP</a> -->
+          <button class="btn btn-light ms-3 btn-sm">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner">
+      <div class="container text-center">
+        <div class="row justify-content-center align-itemes-center">
+          <div class="col-12 col-md-8">
+            <h2>Bank Services</h2>
+            <p>
+              At Folks bank we provide all banking services like cards atm
+              account and transactions history and also you can deposit and
+              withdraw here
+            </p>
+            <div
+              class="search-container d-flex flex-column flex-sm-row justify-content-center"
+            >
+              <input
+                type="text"
+                id="search"
+                class="form-control search-input mb-2 mb-sm-0"
+                placeholder="search here"
+              />
+              <button class="btn btn-search ms-0 ms-sm-2">SEARCH</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-center">About us</h2>
+      <div
+        class="container d-flex flex-column flex-md-row gap-3 justify-content-center about"
+      >
+        <img src="./bank.jpg" alt="" />
+        <p>
+          Folkslogic is your partner for digital innovation and business
+          transformation. We help enterprises engineer innovative solutions that
+          drive growth. Our team specializes in custom software development,
+          delivering specialized products, IT services, and end-to-end solutions
+          to our enterprise customers.
+        </p>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <div class="container">
+        <h2 class="text-center">Our Banking Services</h2>
+
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <i class="fa-solid fa-credit-card fa-3x text-primary mb-3"></i>
+              <h5>Credit & Debit Cards </h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                eius nobis magni accusamus aperiam ullam officiis repellat.
+                Corrupti molestias, voluptatum suscipit, hic odio placeat
+                recusandae omnis animi, dicta sequi esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <i
+                class="fa-solid fa-building-columns fa-3x text-primary mb-3"
+              ></i>
+               <h5>Online Transactions</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                eius nobis magni accusamus aperiam ullam officiis repellat.
+                Corrupti molestias, voluptatum suscipit, hic odio placeat
+                recusandae omnis animi, dicta sequi esse.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.w3schools.com">
+            <div class="card">
+              <i
+                class="fa-solid fa-hand-holding-usd fa-3x text-primary mb-3"
+              ></i>
+              <h5>Loans & Investments</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                eius nobis magni accusamus aperiam ullam officiis repellat.
+                Corrupti molestias, voluptatum suscipit, hic odio placeat
+                recusandae omnis animi, dicta sequi esse.
+              </p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
