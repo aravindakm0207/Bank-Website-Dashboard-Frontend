@@ -63,3 +63,33 @@ a {
 .main-container {
   background-color: aqua;
 }
+.trustworthy-section {
+  background-color: #f7f8fb; /* light gray background, same as screenshot */
+  padding: 100px 0; /* space top & bottom */
+}
+
+.trustworthy-heading {
+  font-size: 5rem;
+  font-weight: 500;
+  color: #e56a2e; /* bright orange text */
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.trustworthy-text {
+  font-size: 1.25rem;
+  color: #6c7a93; /* muted bluish-gray */
+  max-width: 480px;
+  margin-top: 8rem;
+}
+@media (max-width: 768px) {
+  .trustworthy-heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .trustworthy-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
