@@ -37,21 +37,23 @@
         <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+           
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Transactions</a>
+              <a class="nav-link" href="#">Interests</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+             <li class="nav-item"><a class="nav-link" href="accounts.html">Account</a></li>
           </ul>
-          <!-- <a href="#" class="btn btn-signup">SIGN UP</a> -->
-          <button class="btn btn-light ms-3 btn-sm">Sign Up</button>
+          
+          <a href="register.html" class="btn btn-light ms-3 btn-sm">Sign Up</a>
+
         </div>
       </div>
     </nav>
 
-    <section class="banner">
+    <section class="bank-service">
       <div class="container text-center">
         <div class="row justify-content-center align-itemes-center">
           <div class="col-12 col-md-8">
@@ -77,30 +79,58 @@
       </div>
     </section>
 
-    <section>
-      <h2 class="text-center">About us</h2>
-      <div
-        class="container d-flex flex-column flex-md-row gap-3 justify-content-center about"
-      >
-        <img src="./bank.jpg" alt="" />
+  <section class="mb-5 mt-3" id="about">
+  <h2 class="text-center mb-4">About us</h2>
+
+  <div class="container">
+    <div class="row align-items-center justify-content-center text-center text-md-start">
+      
+      <div class="col-md-4 mb-3 mb-md-0">
+        <img src="./images/bank.jpg" class="img-fluid rounded" alt="">
+      </div>
+
+      <div class="col-md-6 p-3">
         <p>
           Folkslogic is your partner for digital innovation and business
-          transformation. We help enterprises engineer innovative solutions that
-          drive growth. Our team specializes in custom software development,
-          delivering specialized products, IT services, and end-to-end solutions
-          to our enterprise customers.
+          transformation. We help enterprises engineer innovative solutions
+          that drive growth...
+          Folkslogic is your partner for digital innovation and business
+          transformation. We help enterprises engineer innovative solutions
+          that drive growth...
         </p>
       </div>
-    </section>
 
-    <section class="text-center">
+    </div>
+  </div>
+</section>
+
+
+   <section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Our Bank Overview</h2>
+    <p class="mb-3">Watch this video to learn more about how Folks Bank works.</p>
+
+    <div class="ratio ratio-16x9">
+      <iframe 
+        src="https://www.youtube.com/embed/BzYMFd-lQL4" 
+        title="YouTube video"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      </iframe>
+    </div>
+  </div>
+</section>
+>
+
+
+    <section class="text-center" id="services">
       <div class="container">
         <h2 class="text-center">Our Banking Services</h2>
 
         <div class="row">
           <div class="col-12 col-md-4">
-            <div class="card">
-              <i class="fa-solid fa-credit-card fa-3x text-primary mb-3"></i>
+            <div class="card mb-2">
+              <i class="fa-solid fa-credit-card fa-3x text-primary mb-3 mt-2"></i>
               <h5>Credit & Debit Cards </h5>
               <p>
                  Enjoy secure and fast payments worldwide with our digital cards.
@@ -108,9 +138,9 @@
             </div>
           </div>
           <div class="col-12 col-md-4">
-            <div class="card">
+            <div class="card mb-2">
               <i
-                class="fa-solid fa-building-columns fa-3x text-primary mb-3"
+                class="fa-solid fa-building-columns fa-3x text-primary mb-3 mt-2"
               ></i>
                <h5>Online Transactions</h5>
               <p>
@@ -121,9 +151,9 @@
           </div>
           <div class="col-12 col-md-4">
             <a href="https://www.w3schools.com">
-            <div class="card">
+            <div class="card mb-2">
               <i
-                class="fa-solid fa-hand-holding-usd fa-3x text-primary mb-3"
+                class="fa-solid fa-hand-holding-usd fa-3x text-primary mb-3 "
               ></i>
               <h5>Loans & Investments</h5>
               <p>
@@ -150,6 +180,108 @@
     </div>
   </div>
 </section>
+
+
+<section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-3">Interest Rates</h2>
+        <table class="table table-bordered table-striped text-center">
+          <thead class="table-dark">
+            <tr>
+              <th>Account Type</th>
+              <th>Interest Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Savings</td>
+              <td>4.5%</td>
+            </tr>
+            <tr>
+              <td>Fixed Deposit</td>
+              <td>6.8%</td>
+            </tr>
+            <tr>
+              <td>Recurring Deposit</td>
+              <td>6.2%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <section id="contact" class="py-5 container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form class="col-md-6 mx-auto" id="contactForm">
+        <div class="mb-3">
+          <label>Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label>Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label>Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button class="btn btn-success w-100" type="submit">
+          Send Message
+        </button>
+      </form>
+      <p class="text-center mt-3" id="msgOutput"></p>
+    </section>
+
+
+   <footer class="bg-primary text-white py-5">
+  <div class="container">
+
+    <div class="row text-center text-md-start align-items-start">
+
+      
+      <div class="col-12 col-md-4 mb-4">
+        <h6 class="fw-bold">RESOURCES</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white-50 text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Support</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Terms & Condition</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-12 col-md-4 mb-4">
+        <h6 class="fw-bold">RESOURCES</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white-50 text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Support</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Terms & Condition</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+     
+      <div class="col-12 col-md-4 text-center">
+        <p class="mb-2">Follow us:</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#" class="text-white fs-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white fs-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white fs-3"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+
 
 
 
